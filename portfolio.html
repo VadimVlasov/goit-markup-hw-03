@@ -13,130 +13,188 @@
   </head>
 
   <body>
-    <header>
+    <header class="header container">
       <a class="logo" href="/"> <span class="web">Web</span>Studio </a>
       <nav>
         <ul>
-          <li><a class="nav-list" href="./index.html">Студия</a></li>
-          <li><a class="nav-list-2" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="nav-list" href="">Контакты</a></li>
+          <li class="nav-element-1">
+            <a class="nav-list" href="./index.html">Студия</a>
+          </li>
+          <li class="nav-element-2">
+            <a class="nav-list-2" href="./portfolio.html">Портфолио</a>
+          </li>
+          <li class="nav-element-3">
+            <a class="nav-list" href="">Контакты</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li>
+      <ul class="contacts">
+        <li class="contacts-element-1">
           <a class="info" href=""> info@devstudio.com</a>
         </li>
-        <li>
+        <li class="contacts-element-2">
           <a class="info" href="">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
     <main>
-      <section>
+      <section class="section-gallery">
         <h1 hidden>Галерея работ</h1>
-        <ul>
-          <li><button class="filter-button" type="button">Все</button></li>
-          <li>
-            <button class="filter-button" type="button">Веб-сайты</button>
-          </li>
-          <li>
-            <button class="filter-button" type="button">Приложения</button>
-          </li>
-          <li><button class="filter-button" type="button">Дизайн</button></li>
-          <li>
-            <button class="filter-button" type="button">Маркетинг</button>
-          </li>
-        </ul>
-        <ul>
-          <li class="list-work-item">
-            <a href="">
-              <img src="./images-2/port-0.jpg" alt="Технокряк" width="370" />
-              <h2 class="list-work-name">Технокряк</h2>
-              <p class="list-work-type">Веб-сайт</p>
-              <p class="list-work-text">
-                Технокряк это современная площадка распространения коронавируса.
-                Компании используют эту платформу для цифрового шпионажа и атак
-                на защищённые сервера конкурентов.
-              </p>
-            </a>
-          </li>
-          <li class="list-work-item">
-            <a href="">
-              <img
-                src="./images-2/port-1.jpg"
-                alt="Постер New Orlean vs Golden Star"
-                width="370"
-              />
-              <h2 class="list-work-name">Постер New Orlean vs Golden Star</h2>
-              <p class="list-work-type">Дизайн</p>
-            </a>
-          </li>
-          <li class="list-work-item">
-            <a href="">
-              <img
-                src="./images-2/port-2.jpg"
-                alt="Ресторан Seafood"
-                width="370"
-              />
-              <h2 class="list-work-name">Ресторан Seafood</h2>
-              <p class="list-work-type">Приложение</p>
-            </a>
-          </li>
-          <li class="list-work-item">
-            <a href="">
-              <img src="./images-2/port-3.jpg" alt="Проект Prime" width="370" />
-              <h2 class="list-work-name">Проект Prime</h2>
-              <p class="list-work-type">Маркетинг</p>
-            </a>
-          </li>
-          <li class="list-work-item">
-            <a href="">
-              <img src="./images-2/port-4.jpg" alt="Проект Boxes" width="370" />
-              <h2 class="list-work-name">Проект Boxes</h2>
-              <p class="list-work-type">Приложение</p>
-            </a>
-          </li>
-          <li class="list-work-item">
-            <a href="">
-              <img
-                src="./images-2/port-5.jpg"
-                alt="Inspiration has no Borders"
-                width="370"
-              />
-              <h2 class="list-work-name">Inspiration has no Borders</h2>
-              <p class="list-work-type">Веб-сайт</p>
-            </a>
-          </li>
-          <li class="list-work-item">
-            <a href="">
-              <img
-                src="./images-2/port-6.jpg"
-                alt="Издание Limited Edition"
-                width="370"
-              />
-              <h2 class="list-work-name">Издание Limited Edition</h2>
-              <p class="list-work-type">Дизайн</p>
-            </a>
-          </li>
-          <li class="list-work-item">
-            <a href="">
-              <img src="./images-2/port-7.jpg" alt="Проект LAB" width="370" />
-              <h2 class="list-work-name">Проект LAB</h2>
-              <p class="list-work-type">Маркетинг</p>
-            </a>
-          </li>
-          <li class="list-work-item">
-            <a href="">
-              <img
-                src="./images-2/port-8.jpg"
-                alt="Growing Business"
-                width="370"
-              />
-              <h2 class="list-work-name">Growing Business</h2>
-              <p class="list-work-type">Приложение</p>
-            </a>
-          </li>
-        </ul>
+        <div class="filter-button-container">
+          <ul>
+            <div class="filter-button-item">
+              <li><button class="filter-button" type="button">Все</button></li>
+            </div>
+            <div class="filter-button-item">
+              <li>
+                <button class="filter-button" type="button">Веб-сайты</button>
+              </li>
+            </div>
+            <div class="filter-button-item">
+              <li>
+                <button class="filter-button" type="button">Приложения</button>
+              </li>
+            </div>
+            <div class="filter-button-item">
+              <li>
+                <button class="filter-button" type="button">Дизайн</button>
+              </li>
+            </div>
+            <div class="filter-button-item">
+              <li>
+                <button class="filter-button" type="button">Маркетинг</button>
+              </li>
+            </div>
+          </ul>
+        </div>
+        <div class="list-work-container">
+          <ul class="gallery-list">
+            <div class="list-work-element">
+              <li class="list-work-item">
+                <a href="">
+                  <img
+                    src="./images-2/port-0.jpg"
+                    alt="Технокряк"
+                    width="370"
+                  />
+                  <h2 class="list-work-name">Технокряк</h2>
+                  <p class="list-work-type">Веб-сайт</p>
+                  <p class="list-work-text">
+                    Технокряк это современная площадка распространения
+                    коронавируса. Компании используют эту платформу для
+                    цифрового шпионажа и атак на защищённые сервера конкурентов.
+                  </p>
+                </a>
+              </li>
+            </div>
+            <div class="list-work-element">
+              <li class="list-work-item">
+                <a href="">
+                  <img
+                    src="./images-2/port-1.jpg"
+                    alt="Постер New Orlean vs Golden Star"
+                    width="370"
+                  />
+                  <h2 class="list-work-name">
+                    Постер New Orlean vs Golden Star
+                  </h2>
+                  <p class="list-work-type">Дизайн</p>
+                </a>
+              </li>
+            </div>
+            <div class="list-work-element">
+              <li class="list-work-item">
+                <a href="">
+                  <img
+                    src="./images-2/port-2.jpg"
+                    alt="Ресторан Seafood"
+                    width="370"
+                  />
+                  <h2 class="list-work-name">Ресторан Seafood</h2>
+                  <p class="list-work-type">Приложение</p>
+                </a>
+              </li>
+            </div>
+            <div class="list-work-element">
+              <li class="list-work-item">
+                <a href="">
+                  <img
+                    src="./images-2/port-3.jpg"
+                    alt="Проект Prime"
+                    width="370"
+                  />
+                  <h2 class="list-work-name">Проект Prime</h2>
+                  <p class="list-work-type">Маркетинг</p>
+                </a>
+              </li>
+            </div>
+            <div class="list-work-element">
+              <li class="list-work-item">
+                <a href="">
+                  <img
+                    src="./images-2/port-4.jpg"
+                    alt="Проект Boxes"
+                    width="370"
+                  />
+                  <h2 class="list-work-name">Проект Boxes</h2>
+                  <p class="list-work-type">Приложение</p>
+                </a>
+              </li>
+            </div>
+            <div class="list-work-element">
+              <li class="list-work-item">
+                <a href="">
+                  <img
+                    src="./images-2/port-5.jpg"
+                    alt="Inspiration has no Borders"
+                    width="370"
+                  />
+                  <h2 class="list-work-name">Inspiration has no Borders</h2>
+                  <p class="list-work-type">Веб-сайт</p>
+                </a>
+              </li>
+            </div>
+            <div class="list-work-element">
+              <li class="list-work-item">
+                <a href="">
+                  <img
+                    src="./images-2/port-6.jpg"
+                    alt="Издание Limited Edition"
+                    width="370"
+                  />
+                  <h2 class="list-work-name">Издание Limited Edition</h2>
+                  <p class="list-work-type">Дизайн</p>
+                </a>
+              </li>
+            </div>
+            <div class="list-work-element">
+              <li class="list-work-item">
+                <a href="">
+                  <img
+                    src="./images-2/port-7.jpg"
+                    alt="Проект LAB"
+                    width="370"
+                  />
+                  <h2 class="list-work-name">Проект LAB</h2>
+                  <p class="list-work-type">Маркетинг</p>
+                </a>
+              </li>
+            </div>
+            <div class="list-work-element">
+              <li class="list-work-item">
+                <a href="">
+                  <img
+                    src="./images-2/port-8.jpg"
+                    alt="Growing Business"
+                    width="370"
+                  />
+                  <h2 class="list-work-name">Growing Business</h2>
+                  <p class="list-work-type">Приложение</p>
+                </a>
+              </li>
+            </div>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="background-footer">
